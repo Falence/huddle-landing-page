@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     line-height: 1.7;
+    list-style: none;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
     font-size: 18px;
     color: hsl(192, 100%, 9%);
 }
+
 
 .hero {
     width: 100%;
@@ -84,7 +86,7 @@ h1 {
 }
 
 section {
-    padding: 200px 0;
+    padding: 150px 0;
 }
 
 .section-cards {
@@ -152,5 +154,65 @@ h2 {
 
 .section-footer {
     background-color: hsl(192, 100%, 9%);
-    /* z-index: -1; */
+    color: hsl(193, 100%, 96%);
+    font-size: 14px;
+    padding-left:  200px;
+    padding-right:  200px;
+}
+
+.section-footer .logo {
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.section-footer a:link,
+.section-footer a:visited {
+    text-decoration: none;
+    color: hsl(193, 100%, 96%);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content > * {
+    width: 33.33%;
+}
+
+.info-container {
+    padding-right: 40px;
+}
+
+.info-group {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.info-group img {
+    /* margin-right: 30px; */
+    padding-top: 8px;
+    margin-right: 40px;
+}
+
+.info-links {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0 50px; */
+}
+
+.social-links {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.social-links > * {
+    padding: 0 5px;
+}
+
+.copyright {
+    text-align: right;
+    display: block;
 }
