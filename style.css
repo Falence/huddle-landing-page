@@ -77,12 +77,12 @@ h1 {
     box-shadow: 0 4px 7px rgba(0,0,0, .15);
 }
 
-.btn:hover.btn-pink,
+
 .btn:active.btn-pink {
     background-color: hsl(322, 100%, 73%);
 }
 
-.btn:hover.btn-white,
+
 .btn:active.btn-white {
     color: hsl(208, 11%, 55%);
 }
@@ -174,8 +174,8 @@ h2 {
 }
 
 .section-footer .logo {
-    width: 500px;
-    margin-bottom: 50px;
+    width: 200px;
+    margin-bottom: 20px;
 }
 
 .section-footer a:link,
@@ -231,6 +231,7 @@ h2 {
     color: hsl(193, 100%, 96%);
     border: none;
 }
+
 
 .social-links a:hover,
 .social-links a:active {
@@ -337,9 +338,9 @@ h2 {
         padding: 20px 20px;
     }
 
-    .section-footer .logo {
-        width: 60%;
-    }
+    /* .section-footer .logo {
+        margin-bottom: 20px;
+    } */
 
     header {
         padding: 35px 50px;
@@ -347,8 +348,8 @@ h2 {
 
     .main-logo {
         width: 30%;
-        height: auto;
-        /* display: inline-block; */
+        /* height: auto; */
+        display: block;
     }
     .section-footer {
         padding-left: 30px;
